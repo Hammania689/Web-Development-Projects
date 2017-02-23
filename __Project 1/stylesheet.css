@@ -1,0 +1,109 @@
+div.pageWrapper {
+  background :  #608591;
+}
+
+
+h1{
+  text-align: center;
+  font-style: black;
+    font-family: 'Merriweather', sans-serif;;
+    font-size: 28px;
+}
+
+
+h2{
+  margin-left: 10px;
+  text-indent: auto;
+  text-overflow: ellipsis;
+}
+
+h3{
+  margin-left: 10px;
+  text-indent: 30px;
+  text-overflow: ellipsis;
+
+}
+
+h4{
+    margin-left: 10px;
+    text-indent : 50px;
+    text-overflow: ellipsis;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+div.header {
+
+  padding-top: 10px;
+  background: #917160;
+  color:  white;
+
+}
+
+div.education{
+
+  width: 50%;
+  height: 375px;
+  background: #921060;
+  float: left;
+  color: white;
+
+}
+
+div.experience{
+  width: 50%;
+  height: 375px;
+
+  background: #921110;
+  float: right;
+  color: white;
+}
+
+div.language{
+  width: 50%;
+  height: 375px;
+
+  background: #921110;
+  float: left;
+  color: white;
+}
+
+div.project{
+  width: 50%;
+  height: 375px;
+
+  background: #856091;
+  float: right;
+  color: white;
+}
+
+img{
+  float: left;
+  padding-top: 50px;
+}
+
+ul
+{
+  list-style-type: none;
+  background-color: #3399ff;
+  margin: 0;
+}
+
+li a{
+  display: block;
+  width: 60px;
+  color: #000;
+  background-color: #dddddd;
+  padding: 8px 16px;
+}
+
+.active{
+  background-color: ##4CAF50;
+  color: white;
+}
